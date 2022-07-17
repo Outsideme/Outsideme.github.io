@@ -1,2 +1,2 @@
-# Outsideme.github.io
-Хост под сайт
+# Digital.Hedonist
+Для публикаций проектов в процессе обучения

@@ -1,126 +1,69 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.ttf) format("truetype");
+  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.eot?) format("woff");
+  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.woff) format("woff");
+}
+html {
+  font-size: 10px;
+}
 
-body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	background-color: #999;
+section {
+  padding: 10rem 0;
 }
-.container {
-	max-width: 428px;
-	height: 492px;
-	margin-top: 132px;
-	background-color: #fff;
-	position: relative;
-}
-.container::before{
-	content: "Create an account";
-position: absolute;
-font-weight: 700;
-font-size: 16px;
-text-transform: uppercase;
-background-color: #01b3b3;
-left: 42px;
-top: -3px;
-width: 200px;
-padding: 4px;
-text-align: center;
-color: #fff;
-letter-spacing: -0.2px;
-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+.header {
+  height: 7rem;
+}
 
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
 }
-.mail-tittle {
-	padding: 69px 0px 0px 30px;
-	margin: 0px 0px -3px 0px;
-	font-size: 16px;
-	font-weight: bold;
-	position: relative;
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
 }
-.mail-tittle::after {
-	content: "*";
-	color: #8cd3d3;
-	font-weight: 700;
-	position: absolute;
-	top: 69px;
-	left: 82px;
 
+main {
+  padding: 2rem 0px;
 }
-.email {
-	font-style: italic;
-	width: 349px;
-	height: 41px;
-	margin: 0px 0px -2px 28px;
-	font-size: 16px;
-	padding: 1px 0px 0px 3px;
-}
-.password {
-	font-style: italic;
-	width: 349px;
-	height: 41px;
-	margin: -8px 0px 0px 28px;
-	font-size: 16px;
-	padding: 1px 0px 0px 3px;
-}
-.cpassword {
-	font-style: italic;
-	width: 349px;
-	height: 43px;
-	margin: -8px 0px -2px 28px;
-	font-size: 16px;
-	padding: 1px 0px 0px 3px;
-}
-button {
-	margin: 47px 0px 0px 30px;
-	width: 347px;
-	height: 60px;
-	background-color: #01bfbf;
-	position: relative;
-	border-radius: 5px;
-	border: none;
-}
-.button p{
-	text-align: center;
-	position: absolute;
-	font-size: 21px;
-	font-weight: 600;
-	color: #fff;
-	left: 88px;
-	top: 15px;
-	text-transform: uppercase;
 
+.col-md-2 {
+  font-family: "ProximaNova";
+  font-weight: 700;
+  font-size: 12px;
 }
-.password-title {
-	
-	font-size: 16px;
-	font-weight: 700;
-	margin: 22px 0px 2px 30px;
-	padding: 0px 0px 5px 0px;
-	position: relative;
-}
-.password-title::after{
-	content: "*";
-	color: #8cd3d3;
-	font-weight: 700;
-	position: absolute;
-	top: 0px;
-	
-	left: 148px;
-}
-.confirmpassword-title {
-	font-size: 16px;
-	font-weight: bold;
-	font-size: 16px;
-	font-weight: 700;
-	margin: 21px 0px 0px 30px;
-	padding: 0px 0px 5px 0px;
-	position: relative;
 
+.col-md-2 a {
+  text-decoration: none;
 }
-.confirmpassword-title::after{
-	content: "*";
-	color: #8cd3d3;
-	font-weight: 700;
 
-	position: absolute;
-	top: 0px;
-	left: 145px;
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-size: 2rem;
+  font-weight: 900;
+  height: 7rem;
+  line-height: 7rem;
+}
+
+.button {
+  background-color: #fcb303;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  font-family: "ProximaNova";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.logo img {
+  height: 70px;
 }

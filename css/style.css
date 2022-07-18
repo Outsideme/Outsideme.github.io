@@ -1,9 +1,21 @@
 @font-face {
-  font-family: "ProximaNova";
-  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.ttf) format("truetype");
-  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.eot?) format("woff");
-  src: url(https://webfonts.pro/templates/fonts/download/ProximaNova/ProximaNova-Bold.woff) format("woff");
+  font-family: "ProximaNovaRg";
+  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+@font-face {
+  font-family: "ProximaNovaRg_bold";
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.col-md-2 {
+  text-align: right;
+}
+
 html {
   font-size: 10px;
 }
@@ -20,20 +32,92 @@ section {
   display: table;
   width: 100%;
   height: 7rem;
+  text-align: right;
 }
 .wrap-block {
   display: table-cell;
   vertical-align: middle;
 }
 
-main {
-  padding: 2rem 0px;
+.main {
+  background: url(../img/Web-Header/BG_of_maket.jpg) center center no-repeat;
+  padding: 2rem 0px 5rem;
+  background-size: cover;
 }
-
-.col-md-2 {
-  font-family: "ProximaNova";
-  font-weight: 700;
-  font-size: 12px;
+.main-content h1 {
+  font-family: "ProximaNovaRg_bold";
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  line-height: 5.8rem;
+}
+.main-content span {
+  background-color: #46b814;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 2.5rem 3.5rem;
+  text-align: center;
+}
+.main-content span strong {
+  font-size: 3rem;
+  font-family: "ProximaNovaRg_bold";
+}
+.main-subtittle {
+  font-family: "ProximaNovaRg";
+  font-size: 2.4rem;
+  color: #1a1820;
+  margin-bottom: 6.2rem;
+}
+.main-trigger {
+  display: block;
+  font-family: "ProximaNovaRg_bold";
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-top: 3.7rem;
+}
+.main-form {
+  margin: 7rem 0;
+  padding: 4rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-header {
+  font-size: 1.9rem;
+  margin-bottom: 4rem;
+}
+.main-input {
+  display: block;
+  border: 1px solid #dddddd;
+  width: 100%;
+  padding: 1.5rem 0;
+  margin: 2rem 0;
+  position: relative;
+}
+.main label {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  background-color: #ffffff;
+  font-family: "ProximaNovaRg";
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: #1a1820;
+  z-index: 10;
+}
+.main-btn {
+  display: block;
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
+.main small {
+  display: block;
+  margin-top: 1.5rem;
+  font-family: "ProximaNovaRg";
+  line-height: 1.2;
+  font-size: 1.2rem;
 }
 
 .col-md-2 a {
@@ -44,17 +128,18 @@ main {
   display: inline-block;
   color: #1a1820;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 700;
   height: 7rem;
   line-height: 7rem;
+  @iclude bold;
 }
 
 .button {
   background-color: #fcb303;
   color: #ffffff;
+  font-family: "ProximaNovaRg";
   padding: 1rem 3rem;
-  font-family: "ProximaNova";
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 600;
   text-transform: uppercase;
